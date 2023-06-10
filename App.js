@@ -5,19 +5,19 @@ export default function App() {
   const estudante = {
     nome: "Joao Rezende",
     idade: 17,
-    universidade: "Universidade ABC",
+    universidade: "Universidade CTOP",
     metas: "Tornar-me uma engenheira de software bem-sucedida",
     hobbies: "platinar jogos e escutar musicas ",
     religiao: "sem",
     estadoCivil: "solteiro",
-    filhos: 2,
+    filhos: 0,
     links: [
-      { label: "LinkedIn", url: "https://linkedin.com" },
-      { label: "GitHub", url: "https://github.com" },
+      { label: "Twitter", url: "https://twitter.com/kenjii4053" },
+      { label: "GitHub", url: "https://github.com/Shiro12232" },
     ],
-    avatar: require("./src/assets/profile.jpg"), // Substitua pelo arquivo de imagem padrão apropriado
+    avatar: require("./src/assets/Alex_Chen_-.png"), // Substitua pelo arquivo de imagem padrão apropriado
     historia:
-      "Tenho trabalhado como engenheira de software nos últimos 5 anos. Comecei minha carreira na Empresa XYZ, onde trabalhei em diversos projetos e adquiri experiência em desenvolvimento web. Depois disso, ingressei na Corporação ABC, onde me especializei em desenvolvimento de aplicativos móveis. Atualmente, trabalho como freelancer, assumindo projetos de diferentes clientes e expandindo meu conjunto de habilidades. No meu tempo livre, gosto de aprender novas tecnologias e contribuir para projetos de código aberto.",
+      "Estou aprendendo programação e tenho interesse em front-end e back-end, e futuramente quero fazer pedagogia e aprender a dublar",
   };
 
   const paletaCores = {
@@ -38,11 +38,11 @@ export default function App() {
       flex: 1,
       alignItems: "center",
       justifyContent: "center",
-      backgroundColor: "#F3F3F3",
+      backgroundColor: "#161717",
       padding: 20,
     },
     perfil: {
-      backgroundColor: "#FFFFFF",
+      backgroundColor: "#91a9ab",
       borderRadius: 10,
       padding: 20,
       flexDirection: "column",
@@ -105,7 +105,7 @@ export default function App() {
           <Text style={estilos.texto}>
             Estado Civil: {estudante.estadoCivil}
           </Text>
-          <Text style={estilos.texto}>Filhos: {estudante.filhos}</Text>
+          
           <Text style={estilos.subtitulo}>Metas:</Text>
           <Text style={estilos.texto}>{estudante.metas}</Text>
           <Text style={estilos.subtitulo}>Hobbies:</Text>
