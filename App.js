@@ -3,13 +3,13 @@ import { View, Text, Image, StyleSheet } from "react-native";
 
 export default function App() {
   const estudante = {
-    nome: "Marina Silva",
-    idade: 32,
+    nome: "Joao Rezende",
+    idade: 17,
     universidade: "Universidade ABC",
     metas: "Tornar-me uma engenheira de software bem-sucedida",
-    hobbies: "Tocar violão, ler livros e fazer trilhas",
-    religiao: "Católica",
-    estadoCivil: "Casada",
+    hobbies: "platinar jogos e escutar musicas ",
+    religiao: "sem",
+    estadoCivil: "solteiro",
     filhos: 2,
     links: [
       { label: "LinkedIn", url: "https://linkedin.com" },
